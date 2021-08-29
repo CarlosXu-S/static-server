@@ -32,6 +32,8 @@ var server = http.createServer(function(request, response){
         '.html':'text/html',
         '.css':'text/css',
         '.js':'text/javascript',
+        '.json':'text/json',
+        '.xml':'text/xml',
         '.png':'image/png',
         '.jpg':'image/jpeg'
     }
